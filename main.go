@@ -25,4 +25,6 @@ func main() {
 	if err != nil {
 		fmt.Println("error setting status:", err)
 	}
+
+	fmt.Println("Status updated successfully!")
 }
