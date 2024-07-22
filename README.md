@@ -11,7 +11,7 @@ Because it takes too many clicks to set your status to 🥪
 ## Usage
 ```
   -emoji string
-        status emoji to set
+        status emoji to set (e.g. :lunch: or 🥪)
   -expires int
         status expiration in minutes (default 60)
   -status string

@@ -15,7 +15,7 @@ func main() {
 		return
 	}
 
-	emoji := flag.String("emoji", "", "status emoji to set")
+	emoji := flag.String("emoji", "", "status emoji to set (e.g. :lunch: or 🥪)")
 	text := flag.String("status", "", "status text to set")
 	expires := flag.Int("expires", 60, "status expiration in minutes")
 	flag.Parse()
